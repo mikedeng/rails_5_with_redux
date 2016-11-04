@@ -1,0 +1,41 @@
+# Ignore bundler config.
+/.bundle
+.byebug_history
+/upload
+/db/development.sqlite3
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/log/*
+/tmp
+
+.DS_Store
+public/uploads
+/coverage
+/config/database.yml
+/.gemtags
+/.tags
+/tags
+/.tags_sorted_by_file
+/dump.rdb
+/data/attachments/files/000/
+/db/schema.rb
+/*.sqlite3
+*.orig
+dump.rdb
+.idea/*
+db/schema.rb
+npm-debug.log
+public/meiqia.html
+public/udesk_feedback.css
+public/udesk_feedback.js
+*.sublime-project
+*.sublime-workspace
+.rbenv-gemsets
+/gemset
+*.swp
+front/node_modules
