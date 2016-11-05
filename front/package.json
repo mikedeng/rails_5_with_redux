@@ -1,5 +1,5 @@
 {
-  "name": "udesk_oa",
+  "name": "rails_api_with_redux",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
@@ -32,6 +32,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",    
-    "deploy_ty": "react-scripts build && scp -r build/ webuser@tiyan:/srv/www/udesk_oa/"
+    "deploy_ty": "react-scripts build && scp -r build/ /srv/www/rails_api_with_redux/"
   }
 }

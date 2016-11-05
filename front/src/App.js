@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import * as actions from './Action'
 import Navbar from './Component/Navbar';
+import LoginPage from './Component/LoginPage.react';
 // import Promote from './Component/Promote';
 
 class App extends Component {
@@ -44,6 +45,7 @@ class App extends Component {
       <div>
         <Navbar path={this.props.location.pathname}/>
         { layout }
+        <LoginPage path='/login'/>
       </div>
     );
   }
@@ -57,7 +59,7 @@ const mapStateToProps = state => {
   const { postsByReddit } = state
   let accounts = [], results = postsByReddit['results']
   if (results) {
-    switch (results.type) {      
+    switch (results.type) {
       case actions.ACCOUNTS:
         accounts = results.accounts
         break
